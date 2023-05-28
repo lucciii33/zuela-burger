@@ -1,0 +1,6 @@
+.circular-cart{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to bottom, #4c669f, #3b5998, #192f6a);
+    border-radius: 50%;
+}
