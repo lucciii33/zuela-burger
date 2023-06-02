@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Routes, Route } from "react-router-dom"
 import viteLogo from '/vite.svg'
-import "../src/css/app.css"
+// import "../src/css/app.css"
 import Homepage from './components/homepage'
 import Homepage2 from './components/Homepage-Banner2'
 import Navbar from './components/Navbar'
