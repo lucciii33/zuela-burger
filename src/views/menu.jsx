@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import viteLogo from "/vite.svg";
-import "../css/app.css";
+import "../css/App.css";
 import BurgerCard from "../components/BurgerCard";
 
 function Menu() {
