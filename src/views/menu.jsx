@@ -8,7 +8,7 @@ function Menu() {
   const [count, setCount] = useState(0);
   const burgerArray = [
     {
-      name: "Chesburger",
+      name: "Chesburgeer",
       price: "5$",
       description: "any descriptio here",
       image:
