@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { Routes, Route } from "react-router-dom"
 import viteLogo from '/vite.svg'
-import './App.css'
+import "../src/css/app.css"
 import Homepage from './components/homepage'
 import Homepage2 from './components/Homepage-Banner2'
 import Navbar from './components/Navbar'
-import Homepage3 from './components/Homepage-Banner3'
+import HomePageOriginal from "./views/homepage-original"
+import Menu from './views/menu'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,10 +14,12 @@ function App() {
   return (
     <>
       <div>
-        <Navbar/>
-        <Homepage/>
-        <Homepage2/>
-        <Homepage3/>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={ <HomePageOriginal/> } />
+        <Route path='/Menu' element={<Menu/>} />
+      </Routes>
+
       </div>
        
       

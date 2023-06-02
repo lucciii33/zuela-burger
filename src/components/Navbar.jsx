@@ -1,6 +1,7 @@
 import { useState } from "react";
 import burgerHome from "../assets/burgerHome.png"
 import "../css/navbar.css"
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -8,7 +9,7 @@ function Navbar() {
       <div className="">
       <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">BLUEBURGER</a>
+    <Link to="/" className="text-decoration-none"><a class="navbar-brand" href="#">BLUEBURGER</a></Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -18,7 +19,7 @@ function Navbar() {
           <a class="nav-link active" aria-current="page" href="#">QUIENES SOMOS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">MENU</a>
+          <Link to="/menu" className="text-decoration-none"><a class="nav-link" href="#">MENU</a></Link>
         </li>
         
         <li class="nav-item">
