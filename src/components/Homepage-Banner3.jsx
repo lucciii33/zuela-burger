@@ -8,7 +8,7 @@ function Homepage3() {
       <div className="container-3 pt-5 d-flex justify-content-center align-items-center p-5">
         <div className="pt-5 pb-5">
           <div className="row p-2">
-            <div className=" col-md-7 col-sm-12 ps-5 mt-5">
+            <div className=" col-md-7 col-sm-12 ps-5 mt-5 order-md-1 order-2">
               <p className=" text-break text-white max-w mt-4">
                 En este pequeño rincón gastronómico, te espera una experiencia
                 única que te hará viajar por sabores inigualables. Aunque pueda
@@ -25,7 +25,7 @@ function Homepage3() {
               </p>
             </div>
 
-            <div className=" col-md-5 col-sm-12 flip-card">
+            <div className=" col-md-5 col-sm-12 order-md-2 order-1 flip-card">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img

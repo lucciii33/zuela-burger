@@ -7,7 +7,7 @@ import Homepage2 from './components/Homepage-Banner2'
 import Navbar from './components/Navbar'
 import HomePageOriginal from "./views/homepage-original"
 import Menu from './views/menu'
-
+import About from './views/about'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={ <HomePageOriginal/> } />
         <Route path='/Menu' element={<Menu/>} />
+        <Route path='/about' element={<About/>} />
       </Routes>
 
       </div>
