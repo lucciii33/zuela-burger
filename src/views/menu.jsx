@@ -73,7 +73,7 @@ function Menu() {
       <div className="bg-light">
         <h1 className="ms-5 pt-5">Burgers:</h1>
         <div className="d-flex justify-content-center">
-        <div className="d-flex flex-wrap">
+        <div className="d-flex flex-wrap" test-data="burgerCars">
         {burgerArray.map((item) => {
           return <BurgerCard item={item} />;
         })}
@@ -83,7 +83,7 @@ function Menu() {
 
         <h1 className="ms-5 mt-2">Fries:</h1>
         <div className="d-flex justify-content-center">
-        <div className="d-flex flex-wrap">
+        <div className="d-flex flex-wrap" test-data="friedCars">
         {friesArray.map((item) => {
           return <BurgerCard item={item} />;
         })}

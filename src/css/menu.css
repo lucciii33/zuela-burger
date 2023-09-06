@@ -2,3 +2,21 @@
     width: 240px; /* Adjust as per your requirements */
     margin: 10px; /* Add spacing between items */
   }
+  .blue{
+    background-color: #288DEA;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    width: 100px;
+  }
+  .red{
+    background-color: #8C44D3;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    width: 100px;
+  }

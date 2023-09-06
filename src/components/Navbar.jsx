@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <>
       <div className="">
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg bg-light" test-data="linkToAbout">
   <div class="container-fluid">
     <Link to="/" className="text-decoration-none"><a class="navbar-brand" href="#">BLUEBURGER</a></Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,8 +15,8 @@ function Navbar() {
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <Link to="/about" className="text-decoration-none"><a class="nav-link active" aria-current="page" href="#">QUIENES SOMOS</a></Link>
+        <li class="nav-item" >
+          <Link to="/about" className="text-decoration-none"><a class="nav-link active" aria-current="page" href="#" test-datatype="actualLink">QUIENES SOMOS</a></Link>
         </li>
         <li class="nav-item">
           <Link to="/menu" className="text-decoration-none"><a class="nav-link" href="#">MENU</a></Link>
