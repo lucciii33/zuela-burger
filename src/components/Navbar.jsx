@@ -25,9 +25,10 @@ function Navbar() {
         <li class="nav-item">
           <a class="nav-link ">ORDENAR</a>
         </li>
+        <Link to="/Login" test-datatype="register">
         <li class="nav-item">
           <a class="nav-link" href="#">REGISTER</a>
-        </li>
+        </li></Link>
         
         <li class="nav-item">
           <a class="nav-link ">INICIAR</a>

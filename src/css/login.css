@@ -1,0 +1,17 @@
+.container-test{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+}
+.box-register{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #4c669f, #3b5998, #192f6a);
+    padding: 20px;
+}
+.buttonSend{
+    width: 100%;
+    background-color: red;
+    padding: 10px;
+}
