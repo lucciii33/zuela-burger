@@ -9,6 +9,7 @@ import HomePageOriginal from "./views/homepage-original"
 import Menu from './views/menu'
 import About from './views/about'
 import Login from './views/login'
+import Login2 from './views/login2'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Menu' element={<Menu/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/login' element={<Login/>} />
+        <Route path='/login2' element={<Login2/>} />
       </Routes>
 
       </div>
