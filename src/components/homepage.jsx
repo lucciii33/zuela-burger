@@ -9,7 +9,7 @@ function Homepage() {
        <div className="">
         <div className="row p-5">
 
-        <div className=" col-md-7 col-sm-12 mt-5">
+        <div className=" col-md-7 col-sm-12 mt-5" data-test="parentDiv">
             <h1 class="text-start  text-white mt-5" data-test="homepage-1">
                 Bienvenidos a Blue burger
             </h1>

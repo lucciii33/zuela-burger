@@ -28,11 +28,23 @@ function Navbar() {
         <Link to="/Login" test-datatype="register">
         <li class="nav-item">
           <a class="nav-link" href="#">REGISTER</a>
-        </li></Link>
+        </li>
+        </Link>
         
         <li class="nav-item">
           <a class="nav-link ">INICIAR</a>
         </li>
+
+        <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+  <Link to="/drops" test-data="dropsLink"><li><a class="dropdown-item" href="#">Action</a></li></Link>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
       </ul>
       <div class="d-flex circular-cart justify-content-center align-items-center text-white" role="search">
        

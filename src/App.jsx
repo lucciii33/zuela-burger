@@ -10,6 +10,7 @@ import Menu from './views/menu'
 import About from './views/about'
 import Login from './views/login'
 import Login2 from './views/login2'
+import Drops from './views/drops'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={ <HomePageOriginal/> } />
+        <Route path="/drops" element={ <Drops/> } />
         <Route path='/Menu' element={<Menu/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/login' element={<Login/>} />

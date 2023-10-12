@@ -169,3 +169,44 @@ body{
   color: white;
   transform: rotateY(180deg);
 }
+.custom-select {
+  position: relative;
+  width: 200px;
+}
+
+/* Style the select box */
+.custom-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #f3f3f3;
+  color: #333;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the select arrow */
+.custom-select select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Style the select options */
+.custom-select select option {
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+/* Style the select when it's focused */
+.custom-select select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
